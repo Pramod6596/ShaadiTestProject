@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShaadiTest</string>
+    <string name="no_internet">No internet connection, Please connect to working internet</string>
+    <string name="user_list">UserList</string>
+</resources>
