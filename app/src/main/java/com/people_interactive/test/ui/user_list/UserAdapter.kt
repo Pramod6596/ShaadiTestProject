@@ -41,8 +41,8 @@ class UserAdapter(private val activity: Activity, private var userModels: List<T
 
             Glide.with(activity)
                     .load(tUser.picture.large)
-                    .placeholder(R.drawable.ic_launcher_background)
-                    .error(R.drawable.ic_launcher_background)
+                    .placeholder(R.drawable.user)
+                    .error(R.drawable.user)
                     .skipMemoryCache(true)
                     .diskCacheStrategy(DiskCacheStrategy.NONE)
                     .circleCrop()
